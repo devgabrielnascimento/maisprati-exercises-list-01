@@ -1,5 +1,5 @@
 // The code will print the result of the operation chosen by the user
-// for the numbers from 0 to 10.
+// for the numbers from 1 to 10.
 const prompt = require("prompt-sync")();
 
 let userInput = 0;
