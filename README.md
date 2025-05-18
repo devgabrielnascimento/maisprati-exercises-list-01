@@ -16,7 +16,9 @@ Ensure that Node.js (https://nodejs.org/) is set up on your development machin
 1. First, clone this repo. Then cd into the repository’s root folder.
    ```bash
     git clone https://github.com/devgabrielnascimento/maisprati-exercises-list-01
-    cd your-repo
+    ```
+    ```bash
+     cd maisprati-exercises-list-01
     ```
 2. Install the project dependencies.:
      ```bash 
@@ -26,11 +28,11 @@ Ensure that Node.js (https://nodejs.org/) is set up on your development machin
 ### ▶ How to Run
 All exercise files—from ex_01.js to ex_15.js—reside at the project’s root. To run one, type as:
 ``` bash
-node ex_00_projectname.js 
+node ex_01_even_or_odd.js
 ```
 
 
-📢 *Replace ex_00_projectname.js with the name of the exercise you want to test, such as ex_05_imc_calculator.js, ex_12_table_operations.js, etc.*
+📢 *Replace ex_01_even_or_odd.js with the name of the exercise you want to test, such as ex_05_imc_calculator.js, ex_12_table_operations.js, etc.*
 
 ### 🗁 Project Structure
 
@@ -48,4 +50,4 @@ node ex_00_projectname.js
 
 ## 🐞 Any Issues?
 Contact me on email: 
-[📧](mailto:devgabrielnascimento@gmail.com)
+📧 devgabrielnascimento@gmail.com
