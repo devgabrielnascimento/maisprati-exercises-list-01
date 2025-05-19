@@ -51,4 +51,4 @@ node ex_01_even_or_odd.js
 ## 🐞 Any Issues?
 
 📧
-Contact to me 📧 <devgabrielnascimento@gmail.com>.
+Contact me 📧 <devgabrielnascimento@gmail.com>.
