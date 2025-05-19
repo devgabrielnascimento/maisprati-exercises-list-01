@@ -1,7 +1,8 @@
 //Calculate the IMC of a person
 // The IMC (Body Mass Index) is calculated using the formula: weight / (height * height)
 const prommpt = require("prompt-sync")();
-
+const { showProgramName } = require("./showProgramName");
+console.log(showProgramName(__filename));
 let weight = Number(prommpt("Please type your weight in kg: "));
 let height = Number(prommpt("Please type your height in meters: "));
 let imc = weight / (height * height);

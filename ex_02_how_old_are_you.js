@@ -4,12 +4,12 @@
 // - Adult: 12-64 years
 // - Senior: 65 years and older
 const prompt = require("prompt-sync")();
-
+const { showProgramName } = require("./showProgramName");
 const max_age_children = 11;
 const max_age_teenagers = 17;
 const max_age_adults = 64;
 const min_age_seniors = 65;
-
+console.log(showProgramName(__filename));
 let age = Number(prompt("Please type your age: "));
 
 if (age <= max_age_children) {

@@ -1,11 +1,12 @@
 // The code will print the result of the operation chosen by the user
 // for the numbers from 1 to 10.
 const prompt = require("prompt-sync")();
-
+const { showProgramName } = require("./showProgramName");
 let userInput = 0;
 let result = 0;
 let i;
 let option = "";
+console.log(showProgramName(__filename));
 let choiceOperation = Number(
   prompt(
     "Please choose an operation: 1 for multiplication, 2 for addition, 3 for subtraction, 4 for division: "

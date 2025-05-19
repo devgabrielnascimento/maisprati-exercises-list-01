@@ -1,6 +1,7 @@
 //Write a program to check if a number is even or odd
 const prompt = require("prompt-sync")();
-
+const { showProgramName } = require("./showProgramName");
+console.log(showProgramName(__filename));
 let userInput = Number(prompt("Please type a number: "));
 
 if (isNaN(userInput)) {

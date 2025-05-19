@@ -1,6 +1,7 @@
 //Calculate the factorial of a number
 const prompt = require("prompt-sync")();
-
+const { showProgramName } = require("./showProgramName");
+console.log(showProgramName(__filename));
 let factorialInput = Number(prompt("Please enter a number: "));
 
 function factorialIteration(number) {

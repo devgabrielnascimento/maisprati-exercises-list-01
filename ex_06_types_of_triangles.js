@@ -1,5 +1,7 @@
 //Write a program that asks the user for the lengths of the three sides of a triangle and then determines if the triangle is equilateral, isosceles, or scalene.
 const prompt = require("prompt-sync")();
+const { showProgramName } = require("./showProgramName");
+console.log(showProgramName(__filename));
 let sideA = Number(prompt("Please type the length of side A: "));
 let sideB = Number(prompt("Please type the length of side B: "));
 let sideC = Number(prompt("Please type the length of side C: "));

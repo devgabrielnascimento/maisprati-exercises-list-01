@@ -1,10 +1,10 @@
 //Type two numbers and print them in ascending order
 const prompt = require("prompt-sync")();
-
+const { showProgramName } = require("./showProgramName");
 let num1;
 
 let num2;
-
+console.log(showProgramName(__filename));
 while (num1 === num2) {
   num1 = Number(prompt("Please type the first number: "));
   num2 = Number(prompt("Please type the second number: "));

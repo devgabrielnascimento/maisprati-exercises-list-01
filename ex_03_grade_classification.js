@@ -1,5 +1,7 @@
 // This program checks the grade of a student and prints the result based on the grade.
 const prompt = require("prompt-sync")();
+const { showProgramName } = require("./showProgramName");
+console.log(showProgramName(__filename));
 let gradeInput = prompt("Please enter a grade: ");
 if (gradeInput >= 6 && gradeInput <= 10) {
   console.log("Passed");
